@@ -12,7 +12,6 @@
 PixelFeatureDropsRebirth is a magisk module to enables most of the latest Google Pixel feature drops on devices running on android custom ROMs with pixel's system UI.
 
 Whats new:
-
 - Bootloop fix for higher versions of Magisk (Tested on Magisk v28, LineageOS 22.1)
 ~~- Feature set from recent pixel models up to mid 2025~~(Removed due to not implemented on AOSP)
 - Google photos *original* quality (instead of *high*)
@@ -22,7 +21,7 @@ Whats new:
 
 | Feature Drop  | Steps to enable      | Sidenote  |
 | ------------- |:-------------:| -----:|
-| **Unlimited Google Photos Storage** | While choosing backup option, choose original quality option. *All **uploads from phone** won't be counted against the google storage quota*. | Select *original quality* **before** flashing this module. Do **NOT** choose "Upgrade existing photos" as it may mess up your account with thousands of photo re-uploads. If you need AI features, just open photos and let it download, then use this module without a data clear.|
+| **Unlimited Google Photos Storage** | Clear photos app data. While choosing backup option, choose high quality option. *All **uploads from phone** won't be counted against the google storage quota*. | Free and unlimited Backup in high quality post 1st June policy changes. |
 | **Shareable Recorder** | Enables by itself using Recorder app enables automatic backup to Google Drive, and access through a new recorder.google.com web app. | Available since March.Works in English only |
 | **Gboard Smart Compose** | Enables by itself using GBoard in selected messaging Apps. | Available since March.Works when set to English(US) only. |
 | **Google Fit heart and respiratory monitoring** | Enables by itself in Google Fit Over WiFi | Available since March.Heart and Respiratory rate measurements.|

@@ -9,7 +9,10 @@
 ## About
 
 
-PixelFeatureDrops is a magisk module to enables most of the latest Google Pixel feature drops on devices running on android custom ROMs with pixel's system UI.
+PixelFeatureDropsRebirth is a magisk module to enables most of the latest Google Pixel feature drops on devices running on android custom ROMs with pixel's system UI.
+
+Whats new:
+- Bootloop fix for higher versions of Magisk (Tested on Magisk v28, LineageOS 22.1)
 
 
 *After module installation, the following features enable on an AOSP custom ROM using pixel's system UI with gapps installed.*

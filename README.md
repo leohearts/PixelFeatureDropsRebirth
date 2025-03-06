@@ -51,10 +51,16 @@ Note: Tap Directions, make sure you’re on the walking tab, and you should see 
 
 ## Installing 
 
+```bash
+make
+make install
+adb reboot
+```
+
 ### Requirements
 
 
-- Android 11 (R).
+- Android 11+ (R)
    - *Magisk version*: 21 and above.
    - Custom ROM: AOSP based with pixel's system UI (preferably gapps build). 
 

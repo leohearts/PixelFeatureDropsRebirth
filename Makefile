@@ -1,8 +1,10 @@
 ZIP_NAME := magisk_module.zip
-VERSION_CODE := git$(shell TZ=UTC git log -1 --date=format:'%Y%m%d%H%M%S' --format='%ad')
+VERSION_CODE := $(shell TZ=UTC git log -1 --date=format:'%s' --format='%ad')
+VERSION := git-"$(shell TZ=UTC git log -1 --date=format:'%Y%m%d%H%M%S' --format='%ad')"
 
 all: clean
-	@echo "Updating versionCode to $(VERSION_CODE)..."
+	@echo "Updating version to $(VERSION)..."
+	@sed -i "s/^version=.*/version=$(VERSION)/" module.prop
 	@sed -i "s/^versionCode=.*/versionCode=$(VERSION_CODE)/" module.prop
 	@echo "Creating Magisk flashable zip..."
 	@zip -r "$(ZIP_NAME)" . -x "$(ZIP_NAME)" "Makefile" ".*"

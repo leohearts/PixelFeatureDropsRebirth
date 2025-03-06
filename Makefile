@@ -1,5 +1,5 @@
 ZIP_NAME := magisk_module.zip
-VERSION_CODE := git-$(shell TZ=UTC git log -1 --date=format:'%Y%m%d-%H%M%S' --format='%ad')
+VERSION_CODE := git$(shell TZ=UTC git log -1 --date=format:'%Y%m%d%H%M%S' --format='%ad')
 
 all: clean
 	@echo "Updating versionCode to $(VERSION_CODE)..."

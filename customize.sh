@@ -1,1 +1,1 @@
-ui_print "- Installing, PixelFeatureDrops"
+ui_print "- Installing PixelFeatureDropsRebirth"

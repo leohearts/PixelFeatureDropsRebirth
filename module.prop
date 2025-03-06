@@ -1,6 +1,6 @@
 id=PixelFeatureDropRebirth
 name=PixelFeatureDropRebirth
-version=git-20250306112231
-versionCode=1741231351
+version=git-20250306094041
+versionCode=1741225241
 author=leohearts
 description=Enables most of the latest Google feature drops on devices running on android custom ROMs with pixel's system UI.
